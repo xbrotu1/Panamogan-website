@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustration of a dark denim jacket on a cobalt blue background">
+  <title>Illustration of a dark denim jacket on a cobalt blue background</title>
+  <rect width="400" height="500" fill="#2B4EFF"/>
+  <ellipse cx="200" cy="462" rx="130" ry="9" fill="#111111" opacity="0.25"/>
+  <path d="M130 100 L270 100 L292 425 L108 425 Z" fill="#16256E" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M130 100 L66 128 L42 385 L92 392 L116 205 Z" fill="#16256E" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M270 100 L334 128 L358 385 L308 392 L284 205 Z" fill="#16256E" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M150 95 L200 145 L168 172 L122 112 Z" fill="#0E1A55" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M250 95 L200 145 L232 172 L278 112 Z" fill="#0E1A55" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="108" y="395" width="184" height="30" fill="#0E1A55" stroke="#111111" stroke-width="3"/>
+  <path d="M200 145 L200 395" stroke="#9FB1FF" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <circle cx="200" cy="190" r="6" fill="#9FB1FF"/><circle cx="200" cy="245" r="6" fill="#9FB1FF"/><circle cx="200" cy="300" r="6" fill="#9FB1FF"/><circle cx="200" cy="355" r="6" fill="#9FB1FF"/>
+  <rect x="136" y="205" width="48" height="56" fill="#0E1A55" stroke="#9FB1FF" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <rect x="216" y="205" width="48" height="56" fill="#0E1A55" stroke="#9FB1FF" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <path d="M60 150 L52 365 M340 150 L348 365" stroke="#9FB1FF" stroke-width="2.5" stroke-dasharray="6 5" fill="none"/>
+</svg>

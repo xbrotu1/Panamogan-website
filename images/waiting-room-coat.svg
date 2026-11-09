@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustration of an oversized off-white coat with cobalt lapels on a black background">
+  <title>Illustration of an oversized off-white coat with cobalt lapels on a black background</title>
+  <rect width="400" height="500" fill="#111111"/>
+  <ellipse cx="200" cy="466" rx="140" ry="9" fill="#000" opacity="0.5"/>
+  <path d="M110 105 L290 105 L335 455 L65 455 Z" fill="#F7F5F0" stroke="#F7F5F0" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M112 105 L50 135 L26 410 L78 416 L102 215 Z" fill="#F7F5F0" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M288 105 L350 135 L374 410 L322 416 L298 215 Z" fill="#F7F5F0" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M150 100 L200 275 L118 205 Z" fill="#2B4EFF"/>
+  <path d="M250 100 L200 275 L282 205 Z" fill="#2B4EFF"/>
+  <path d="M150 100 Q200 140 250 100 L240 80 Q200 110 160 80 Z" fill="#E6E3DC" stroke="#111111" stroke-width="3"/>
+  <path d="M200 275 L200 455" stroke="#111111" stroke-width="4"/>
+  <circle cx="186" cy="320" r="7" fill="#111111"/><circle cx="186" cy="370" r="7" fill="#111111"/><circle cx="186" cy="420" r="7" fill="#111111"/>
+  <rect x="112" y="330" width="50" height="6" fill="#111111" opacity="0.25"/>
+  <rect x="238" y="330" width="50" height="6" fill="#111111" opacity="0.25"/>
+</svg>

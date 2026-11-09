@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Illustration of a white embroidered barong shirt on a cobalt blue background">
+  <title>Illustration of a white embroidered barong shirt on a cobalt blue background</title>
+  <rect width="400" height="500" fill="#2B4EFF"/>
+  <ellipse cx="200" cy="462" rx="130" ry="9" fill="#111111" opacity="0.18"/>
+  <path d="M150 90 L110 105 L50 150 L35 335 L78 340 L95 195 L100 432 L300 432 L305 195 L322 340 L365 335 L350 150 L290 105 L250 90 Z" fill="#F7F5F0" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="185" y="165" width="30" height="267" fill="#fff" stroke="#111111" stroke-width="3"/>
+  <polygon points="200,181 209,190 200,199 191,190" fill="#2B4EFF"/><polygon points="200,211 209,220 200,229 191,220" fill="#2B4EFF"/><polygon points="200,241 209,250 200,259 191,250" fill="#2B4EFF"/><polygon points="200,271 209,280 200,289 191,280" fill="#2B4EFF"/><polygon points="200,301 209,310 200,319 191,310" fill="#2B4EFF"/><polygon points="200,331 209,340 200,349 191,340" fill="#2B4EFF"/><polygon points="200,361 209,370 200,379 191,370" fill="#2B4EFF"/><polygon points="200,391 209,400 200,409 191,400" fill="#2B4EFF"/>
+  <path d="M150 88 L205 162 L170 178 L128 108 Z" fill="#E6E3DC" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M250 88 L195 162 L230 178 L272 108 Z" fill="#E6E3DC" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M40 300 L77 306" stroke="#2B4EFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M360 300 L323 306" stroke="#2B4EFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M120 250 Q140 300 120 360 M130 250 Q150 300 130 360" fill="none" stroke="#2B4EFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M280 250 Q260 300 280 360 M270 250 Q250 300 270 360" fill="none" stroke="#2B4EFF" stroke-width="4" stroke-linecap="round"/>
+</svg>
