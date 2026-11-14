@@ -92,3 +92,13 @@ nav .nav-cta {
 nav .nav-cta:hover {
   background: #111111;
 }
+
+footer {
+  background: #111111;
+  color: #f7f5f0;
+  padding: 20px 30px;
+}
+
+footer a {
+  color: #f7f5f0;
+}
