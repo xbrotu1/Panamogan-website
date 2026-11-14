@@ -19,9 +19,8 @@ html {
   scroll-padding-top: 4.5rem;
 }
 
-main section {
+section {
   padding: 15;
-  margin: 15;
 }
 
 nav {
