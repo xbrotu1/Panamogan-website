@@ -1,4 +1,20 @@
+/* Palette:
+   Background  #F7F5F0  off-white
+   Text        #111111  ink black
+   Muted text  #555555  gray
+   Surface     #E6E3DC  light sand
+   Accent      #2B4EFF  cobalt blue
+   Fonts: Space Grotesk (headings), Inter (body) */
 
+:root {
+  --bg: #F7F5F0;
+  --text: #111111;
+  --muted: #555555;
+  --surface: #E6E3DC;
+  --accent: #2B4EFF;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
 
 body {
   margin: 0;
