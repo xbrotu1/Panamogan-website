@@ -243,3 +243,26 @@ figcaption {
 .hero-figure .card-img {
   aspect-ratio: 4 / 5;
 }
+
+/* ---------- Collections ---------- */
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.collection h3 {
+  margin: 0.9rem 0 0.3rem;
+}
+
+.collection p {
+  color: #555555;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+.collection .card-img {
+  aspect-ratio: 4 / 5;
+}
