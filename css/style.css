@@ -266,3 +266,77 @@ figcaption {
 .collection .card-img {
   aspect-ratio: 4 / 5;
 }
+
+/* ---------- Bespoke inquiry ---------- */
+
+.bespoke {
+  background: #2B4EFF;
+  color: #fff;
+}
+
+.bespoke-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 6rem 2.5rem;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.bespoke h2 {
+  color: #fff;
+}
+
+.bespoke-note {
+  font-weight: 600;
+}
+
+.inquiry-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.inquiry-form label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.inquiry-form input,
+.inquiry-form select,
+.inquiry-form textarea {
+  width: 100%;
+  font: inherit;
+  color: #111111;
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0.7rem 0.8rem;
+}
+
+.inquiry-form textarea {
+  resize: vertical;
+}
+
+.inquiry-form input:focus-visible,
+.inquiry-form select:focus-visible,
+.inquiry-form textarea:focus-visible {
+  outline: 3px solid #111111;
+  outline-offset: 2px;
+}
+
+.inquiry-form .btn {
+  justify-self: start;
+  margin-top: 0.5rem;
+}

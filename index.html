@@ -82,6 +82,59 @@
       </div>
     </section>
 
+    <!-- ===== BESPOKE BARONG INQUIRY (accent section) ===== -->
+    <section class="bespoke" id="bespoke">
+      <div class="bespoke-inner">
+        <div class="bespoke-copy">
+          <h2>Ask about a bespoke barong</h2>
+          <p>Tell us about the occasion. Randolf designs the embroidery around the music and stories of each client, so
+            the more you share, the better the first conversation.</p>
+          <p class="bespoke-note">Fill in the form and we will reply with next steps.</p>
+        </div>
+
+        <form class="inquiry-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="mobile">Mobile Number</label>
+              <input id="mobile" type="tel" name="phone" autocomplete="tel" placeholder="09XX-XXX-XXXX" />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="occasion">Occasion</label>
+              <select id="occasion" name="occasion" required>
+                <option value="">Choose One</option>
+                <option>Wedding</option>
+                <option>Graduation</option>
+                <option>Anniversary</option>
+                <option>Corporate or formal event</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="event-date">Event date</label>
+              <input id="event-date" type="date" name="event-date" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="notes">Tell us about the design you have in mind</label>
+            <textarea id="notes" name="notes" rows="4"
+              placeholder="Colors, favorite songs, anything you want stitched in."></textarea>
+          </div>
+          <button class="btn btn-light" type="submit">Send inquiry</button>
+        </form>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section id="about">
       <h2>About</h2>
