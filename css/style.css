@@ -56,3 +56,39 @@ button {
   border-radius: 20px;
   font-size: 15px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.brand {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111111;
+  text-decoration: none;
+}
+
+.cta,
+nav .nav-cta {
+  background: #2b4eff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cta:hover,
+nav .nav-cta:hover {
+  background: #111111;
+}
