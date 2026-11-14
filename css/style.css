@@ -340,3 +340,63 @@ figcaption {
   justify-self: start;
   margin-top: 0.5rem;
 }
+
+/* ---------- About ---------- */
+
+.about {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Placement: text on the left, facts on the right, waste box underneath */
+.about-text {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.facts {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+}
+
+.facts>div {
+  padding: 1rem 0;
+  border-top: 2px solid #111111;
+}
+
+.facts>div:last-child {
+  border-bottom: 2px solid #111111;
+}
+
+.facts dt {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  color: #2B4EFF;
+}
+
+.facts dd {
+  margin: 0.4rem 0 0;
+  color: #555555;
+}
+
+.sustainability {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  background: #E6E3DC;
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+.sustainability h3 {
+  margin-bottom: 0.4rem;
+}
+
+.sustainability p {
+  margin: 0;
+  color: #555555;
+}
