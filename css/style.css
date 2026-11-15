@@ -523,3 +523,33 @@ figcaption {
   flex-wrap: wrap;
   gap: 0.75rem;
 }
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: #111111;
+  color: #F7F5F0;
+  padding: 2.5rem 2.5rem;
+}
+
+.site-footer p {
+  max-width: none;
+  margin: 0 0 0.4rem;
+}
+
+.footer-brand {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.footer-links a {
+  color: #F7F5F0;
+  margin-right: 1rem;
+}
+
+.footer-note,
+.footer-credit {
+  font-size: 0.9rem;
+  color: #E6E3DC;
+}
