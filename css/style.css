@@ -553,3 +553,90 @@ figcaption {
   font-size: 0.9rem;
   color: #E6E3DC;
 }
+
+/* ---------- Tablet and mobile ---------- */
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .site-header {
+    padding: 0.9rem 1.25rem;
+  }
+
+  .section,
+  .hero,
+  .bespoke-inner {
+    padding: 3rem 1.25rem;
+  }
+
+  .site-footer {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .hero,
+  .about,
+  .bespoke-inner,
+  .contact {
+    gap: 2rem;
+  }
+
+  .hero,
+  .about,
+  .bespoke-inner,
+  .articles,
+  .contact,
+  .where-list {
+    grid-template-columns: 1fr;
+  }
+
+  .about-text,
+  .facts,
+  .sustainability {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .hero-figure .card-img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .collection-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .collection-large {
+    grid-column: 1 / -1;
+  }
+
+  .collection-large .card-img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .awards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .collection-grid,
+  .field-row,
+  .awards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    transition: none !important;
+  }
+}
