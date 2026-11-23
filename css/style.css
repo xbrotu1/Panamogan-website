@@ -7,13 +7,13 @@
    Fonts: Space Grotesk (headings), Inter (body) */
 
 :root {
-  --bg: #F7F5F0;
+  --bg: #f7f5f0;
   --text: #111111;
   --muted: #555555;
-  --surface: #E6E3DC;
-  --accent: #2B4EFF;
-  --font-heading: 'Space Grotesk', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --surface: #e6e3dc;
+  --accent: #2b4eff;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
 * {
@@ -27,16 +27,16 @@ html {
 
 body {
   margin: 0;
-  background: #F7F5F0;
-  color: #111111;
-  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
   line-height: 1.65;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   line-height: 1.1;
   margin: 0 0 0.6em;
 }
@@ -64,11 +64,11 @@ p {
 }
 
 a {
-  color: #2B4EFF;
+  color: var(--accent);
 }
 
 :focus-visible {
-  outline: 3px solid #2B4EFF;
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
 
@@ -76,8 +76,8 @@ a {
   position: absolute;
   left: -999px;
   top: 0.5rem;
-  background: #111111;
-  color: #F7F5F0;
+  background: var(--text);
+  color: var(--bg);
   padding: 0.5rem 1rem;
   z-index: 100;
 }
@@ -98,16 +98,16 @@ a {
   flex-wrap: wrap;
   gap: 0.5rem 1.5rem;
   padding: 0.9rem 2.5rem;
-  background: #F7F5F0;
-  border-bottom: 1px solid #E6E3DC;
+  background: var(--bg);
+  border-bottom: 1px solid var(--surface);
 }
 
 .brand {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: -0.02em;
-  color: #111111;
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -122,33 +122,33 @@ a {
 }
 
 .nav-list a {
-  color: #111111;
+  color: var(--text);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
 }
 
 .nav-list a:hover {
-  color: #2B4EFF;
+  color: var(--accent);
 }
 
 .nav-list .nav-cta {
-  background: #2B4EFF;
-  color: #fff;
+  background: var(--accent);
+  color: var(--surface);
   padding: 0.5rem 1rem;
   border-radius: 999px;
 }
 
 .nav-list .nav-cta:hover {
-  background: #111111;
-  color: #fff;
+  background: var(--text);
+  color: var(--surface);
 }
 
 /* ---------- Buttons ---------- */
 
 .btn {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   padding: 0.85rem 1.5rem;
@@ -156,36 +156,39 @@ a {
   border: 2px solid transparent;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
 }
 
 .btn-primary {
-  background: #2B4EFF;
-  color: #fff;
+  background: var(--accent);
+  color: var(--surface);
 }
 
 .btn-primary:hover {
-  background: #111111;
+  background: var(--text);
 }
 
 .btn-secondary {
-  border-color: #111111;
-  color: #111111;
+  border-color: var(--text);
+  color: var(--text);
 }
 
 .btn-secondary:hover {
-  background: #111111;
-  color: #F7F5F0;
+  background: var(--text);
+  color: var(--bg);
 }
 
 .btn-light {
-  background: #fff;
-  color: #2B4EFF;
+  background: var(--surface);
+  color: var(--text);
 }
 
 .btn-light:hover {
-  background: #111111;
-  color: #fff;
+  background: var(--text);
+  color: var(--surface);
 }
 
 .button-row {
@@ -207,7 +210,7 @@ a {
 figcaption {
   margin-top: 0.5rem;
   font-size: 0.85rem;
-  color: #555555;
+  color: var(--muted);
 }
 
 /* ---------- Page sections ---------- */
@@ -219,7 +222,7 @@ figcaption {
 }
 
 .section-intro {
-  color: #555555;
+  color: var(--muted);
   margin-bottom: 2rem;
 }
 
@@ -233,7 +236,7 @@ figcaption {
 
 .hero-lead {
   font-size: 1.15rem;
-  color: #555555;
+  color: var(--muted);
 }
 
 .hero-figure {
@@ -258,7 +261,7 @@ figcaption {
 }
 
 .collection p {
-  color: #555555;
+  color: var(--muted);
   font-size: 0.95rem;
   margin-bottom: 0;
 }
@@ -270,8 +273,8 @@ figcaption {
 /* ---------- Bespoke inquiry ---------- */
 
 .bespoke {
-  background: #2B4EFF;
-  color: #fff;
+  background: var(--accent);
+  color: var(--surface);
 }
 
 .bespoke-inner {
@@ -285,7 +288,7 @@ figcaption {
 }
 
 .bespoke h2 {
-  color: #fff;
+  color: var(--surface);
 }
 
 .bespoke-note {
@@ -318,8 +321,8 @@ figcaption {
 .inquiry-form textarea {
   width: 100%;
   font: inherit;
-  color: #111111;
-  background: #fff;
+  color: var(--text);
+  background: var(--surface);
   border: 2px solid transparent;
   border-radius: 6px;
   padding: 0.7rem 0.8rem;
@@ -332,7 +335,7 @@ figcaption {
 .inquiry-form input:focus-visible,
 .inquiry-form select:focus-visible,
 .inquiry-form textarea:focus-visible {
-  outline: 3px solid #111111;
+  outline: 3px solid var(--text);
   outline-offset: 2px;
 }
 
@@ -362,32 +365,32 @@ figcaption {
   margin: 0;
 }
 
-.facts>div {
+.facts > div {
   padding: 1rem 0;
-  border-top: 2px solid #111111;
+  border-top: 2px solid var(--text);
 }
 
-.facts>div:last-child {
-  border-bottom: 2px solid #111111;
+.facts > div:last-child {
+  border-bottom: 2px solid var(--text);
 }
 
 .facts dt {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 2rem;
   line-height: 1;
-  color: #2B4EFF;
+  color: var(--accent);
 }
 
 .facts dd {
   margin: 0.4rem 0 0;
-  color: #555555;
+  color: var(--muted);
 }
 
 .sustainability {
   grid-column: 1 / -1;
   grid-row: 2;
-  background: #E6E3DC;
+  background: var(--surface);
   border-radius: 6px;
   padding: 1.5rem;
 }
@@ -398,7 +401,7 @@ figcaption {
 
 .sustainability p {
   margin: 0;
-  color: #555555;
+  color: var(--muted);
 }
 
 /* ---------- Press and awards ---------- */
@@ -413,13 +416,13 @@ figcaption {
 }
 
 .awards li {
-  border-top: 2px solid #111111;
+  border-top: 2px solid var(--text);
   padding-top: 0.9rem;
 }
 
 .awards strong {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.15rem;
   font-weight: 500;
   line-height: 1.25;
@@ -442,23 +445,25 @@ figcaption {
 .where-list a {
   display: block;
   padding: 1.25rem;
-  background: #E6E3DC;
+  background: #e6e3dc;
   border-radius: 6px;
-  color: #111111;
+  color: var(--text);
   text-decoration: none;
-  transition: background-color 0.15s, color 0.15s;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
 }
 
 .article:hover,
 .where-list a:hover {
-  background: #2B4EFF;
-  color: #fff;
+  background: var(--accent);
+  color: var(--bg);
 }
 
 .article-outlet {
   display: block;
   font-size: 0.9rem;
-  color: #555555;
+  color: var(--muted);
   margin-bottom: 0.3rem;
 }
 
@@ -468,7 +473,7 @@ figcaption {
 
 .article-title {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.15rem;
   font-weight: 500;
   line-height: 1.3;
@@ -495,7 +500,7 @@ figcaption {
 
 .where-list strong {
   display: block;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -528,7 +533,7 @@ figcaption {
 
 .site-footer {
   background: #111111;
-  color: #F7F5F0;
+  color: var(--bg);
   padding: 2.5rem 2.5rem;
 }
 
@@ -538,20 +543,20 @@ figcaption {
 }
 
 .footer-brand {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
 .footer-links a {
-  color: #F7F5F0;
+  color: var(--bg);
   margin-right: 1rem;
 }
 
 .footer-note,
 .footer-credit {
   font-size: 0.9rem;
-  color: #E6E3DC;
+  color: var(--surface);
 }
 
 /* ---------- Tablet and mobile ---------- */
