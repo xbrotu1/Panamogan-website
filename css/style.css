@@ -418,6 +418,20 @@ figcaption {
   padding-top: 0.9rem;
 }
 
+.award-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.9rem;
+}
+
+.award-img-top {
+  object-position: center top;
+}
+
 .awards strong {
   display: block;
   font-family: var(--font-heading);
