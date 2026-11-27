@@ -7,14 +7,21 @@
    Fonts: Space Grotesk (headings), Inter (body) */
 
 :root {
-  --bg: #F7F5F0;
+  --bg: #f7f5f0;
   --text: #111111;
   --muted: #555555;
+<<<<<<< HEAD
   --surface: #E6E3DC;
   --accent: #2B4EFF;
   --white: #fff;
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
+=======
+  --surface: #e6e3dc;
+  --accent: #2b4eff;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 * {
@@ -30,14 +37,22 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
+<<<<<<< HEAD
   font-family: var(--font-body);
+=======
+  font-family: "Inter", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   line-height: 1.65;
 }
 
 h1,
 h2,
 h3 {
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   line-height: 1.1;
   margin: 0 0 0.6em;
 }
@@ -104,7 +119,11 @@ a {
 }
 
 .brand {
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: -0.02em;
@@ -135,21 +154,33 @@ a {
 
 .nav-list .nav-cta {
   background: var(--accent);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   padding: 0.5rem 1rem;
   border-radius: 999px;
 }
 
 .nav-list .nav-cta:hover {
   background: var(--text);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 /* ---------- Buttons ---------- */
 
 .btn {
   display: inline-block;
+<<<<<<< HEAD
   font-family: var(--font-body);
+=======
+  font-family: "Inter", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-weight: 600;
   font-size: 1rem;
   padding: 0.85rem 1.5rem;
@@ -157,12 +188,19 @@ a {
   border: 2px solid transparent;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
 }
 
 .btn-primary {
   background: var(--accent);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .btn-primary:hover {
@@ -180,13 +218,22 @@ a {
 }
 
 .btn-light {
+<<<<<<< HEAD
   background: var(--white);
   color: var(--accent);
+=======
+  background: var(--surface);
+  color: var(--text);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .btn-light:hover {
   background: var(--text);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .button-row {
@@ -272,7 +319,11 @@ figcaption {
 
 .bespoke {
   background: var(--accent);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .bespoke-inner {
@@ -286,7 +337,11 @@ figcaption {
 }
 
 .bespoke h2 {
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .bespoke-note {
@@ -320,7 +375,11 @@ figcaption {
   width: 100%;
   font: inherit;
   color: var(--text);
+<<<<<<< HEAD
   background: var(--white);
+=======
+  background: var(--surface);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   border: 2px solid transparent;
   border-radius: 6px;
   padding: 0.7rem 0.8rem;
@@ -363,17 +422,25 @@ figcaption {
   margin: 0;
 }
 
-.facts>div {
+.facts > div {
   padding: 1rem 0;
   border-top: 2px solid var(--text);
 }
 
+<<<<<<< HEAD
 .facts>div:last-child {
+=======
+.facts > div:last-child {
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   border-bottom: 2px solid var(--text);
 }
 
 .facts dt {
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-weight: 700;
   font-size: 2rem;
   line-height: 1;
@@ -420,7 +487,11 @@ figcaption {
 
 .awards strong {
   display: block;
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-size: 1.15rem;
   font-weight: 500;
   line-height: 1.25;
@@ -443,17 +514,27 @@ figcaption {
 .where-list a {
   display: block;
   padding: 1.25rem;
+<<<<<<< HEAD
   background: var(--surface);
+=======
+  background: #e6e3dc;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   border-radius: 6px;
   color: var(--text);
   text-decoration: none;
-  transition: background-color 0.15s, color 0.15s;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
 }
 
 .article:hover,
 .where-list a:hover {
   background: var(--accent);
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: var(--bg);
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
 }
 
 .article-outlet {
@@ -469,7 +550,11 @@ figcaption {
 
 .article-title {
   display: block;
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-size: 1.15rem;
   font-weight: 500;
   line-height: 1.3;
@@ -496,7 +581,11 @@ figcaption {
 
 .where-list strong {
   display: block;
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -528,7 +617,11 @@ figcaption {
 /* ---------- Footer ---------- */
 
 .site-footer {
+<<<<<<< HEAD
   background: var(--text);
+=======
+  background: #111111;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   color: var(--bg);
   padding: 2.5rem 2.5rem;
 }
@@ -539,7 +632,11 @@ figcaption {
 }
 
 .footer-brand {
+<<<<<<< HEAD
   font-family: var(--font-heading);
+=======
+  font-family: "Space Grotesk", sans-serif;
+>>>>>>> 547a6de0d0fbb54478640828174147b9b85ac55f
   font-weight: 700;
   font-size: 1.5rem;
 }
